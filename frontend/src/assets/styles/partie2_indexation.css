@@ -1,0 +1,76 @@
+.coverbody {
+  background-image: url("../../assets/images/img2.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.search-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.253);
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 10px;
+  width: 45%;
+  height: 55%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.244);
+}
+.logoV2 {
+  margin-bottom: 20px;
+}
+
+.InputTxtElement {
+  margin-bottom: 25px;
+}
+.InputTxtElement input {
+  width: 550px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #989696;
+  outline: none;
+}
+
+.SubBtn button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #818181;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.SubBtn button:hover {
+  background-color: #5e5e5e;
+}
+
+.InputTxtElement input {
+  background-image: url("../../assets/images/search_img.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+}
+
+.InputTxtElement input {
+  padding-left: 35px;
+  transition: all 0.3s;
+}
+
+.InputTxtElement input:focus {
+  width: 601px;
+  padding-left: 10px;
+  background-image: none;
+
+  transition: all 0.3s;
+}
